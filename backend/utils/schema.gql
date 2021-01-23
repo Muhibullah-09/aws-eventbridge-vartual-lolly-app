@@ -1,0 +1,33 @@
+type Event {
+  result: String!
+}
+
+type Lolly {
+    id: ID!
+    colorTop: String!
+    colorMiddle: String!
+    colorBottom: String!
+    recipient: String!
+    message: String!
+    sender: String!
+    lollyPath: String!
+}
+
+input LollyInput {
+    colorTop: String!
+    colorMiddle: String!
+    colorBottom: String!
+    recipient: String!
+    message: String!
+    sender: String!
+    lollyPath: String!
+}
+
+type Query {
+  getLollies: [Lolly!]
+}
+
+type Mutation {
+  createLolly(lolly: LollyInput!): Event
+  deleteLolly(lollyId: ID!): Event
+}
