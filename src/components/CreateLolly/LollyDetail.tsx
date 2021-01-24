@@ -89,7 +89,7 @@ const LollyDetail: FC<Props> = ({ setSender, setMessage, setRecipient, setSubmis
             {formik.touched.sendersName && formik.errors.sendersName ? (
               <span className="error">{formik.errors.sendersName}</span>
             ) : null}
-          </p>
+          </p> 
         </div>
         <input type="submit" value="Freeze this lolly and get a link"></input>
       </form>
