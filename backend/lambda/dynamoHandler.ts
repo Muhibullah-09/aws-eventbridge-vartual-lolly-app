@@ -4,7 +4,7 @@ var https = require('https');
 
 const options = {
     hostname: 'webhooks.amplify.us-east-2.amazonaws.com',
-    path: '/prod/webhooks?id=336d9505-c9aa-44d1-8ad9-312c88e07952&token=rRGzVqcpcxy35BaBuQxcGop7Y8rLxcFflJtmOdR20',
+    path: '/prod/webhooks?id=22cce9e4-f00c-4dc7-8bd5-80e7593cac5b&token=EskPgrhWZy2gaHPKNluidzuH9To0fDz7nwazGQyw8I',
     method: 'POST'
 };  
 
