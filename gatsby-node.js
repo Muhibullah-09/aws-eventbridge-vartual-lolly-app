@@ -7,7 +7,7 @@ exports.createPages = async ({ actions }) => {
   });
 
   const params = {
-    TableName: 'Lolly_Table',
+    TableName: 'LollyTable',
   };
 
   try {
