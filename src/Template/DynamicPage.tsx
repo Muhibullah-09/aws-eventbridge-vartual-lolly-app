@@ -23,7 +23,7 @@ const DynamicPage = ({ pageContext: { lolly } }) => {
           </p>
         </div>
       </div>
-    </div>
+    </div> 
   );
 };
 
