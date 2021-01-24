@@ -2,7 +2,7 @@ import React from "react";
 import Lolly from "../components/Lolly";
 import "../styles/main.css";
 
-const dynamicPage = ({ pageContext: { lolly } }) => {
+const DynamicPage = ({ pageContext: { lolly } }) => {
   return (
     <div className="createLolly">
       <Lolly
@@ -27,4 +27,4 @@ const dynamicPage = ({ pageContext: { lolly } }) => {
   );
 };
 
-export default dynamicPage;
+export default DynamicPage;
