@@ -6,7 +6,7 @@ const options = {
     hostname: 'webhooks.amplify.us-east-2.amazonaws.com',
     path: '/prod/webhooks?id=336d9505-c9aa-44d1-8ad9-312c88e07952&token=rRGzVqcpcxy35BaBuQxcGop7Y8rLxcFflJtmOdR20',
     method: 'POST'
-}; 
+};  
 
 
 const dynamoClient = new AWS.DynamoDB.DocumentClient();

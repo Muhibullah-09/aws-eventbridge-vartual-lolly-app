@@ -1,15 +1,15 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-frontend-dev-110543-authRole",
-      "UnauthRoleArn": "arn:aws:iam::580656575244:role/amplify-frontend-dev-110543-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::580656575244:role/amplify-frontend-dev-110543-authRole",
+      "AuthRoleName": "amplify-lollyfrontend-dev-185149-authRole",
+      "UnauthRoleArn": "arn:aws:iam::580656575244:role/amplify-lollyfrontend-dev-185149-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::580656575244:role/amplify-lollyfrontend-dev-185149-authRole",
       "Region": "us-east-2",
-      "DeploymentBucketName": "amplify-frontend-dev-110543-deployment",
-      "UnauthRoleName": "amplify-frontend-dev-110543-unauthRole",
-      "StackName": "amplify-frontend-dev-110543",
-      "StackId": "arn:aws:cloudformation:us-east-2:580656575244:stack/amplify-frontend-dev-110543/373c8890-5e0a-11eb-98f5-06d182958b16",
-      "AmplifyAppId": "d1w9fy2h7ob7kt"
+      "DeploymentBucketName": "amplify-lollyfrontend-dev-185149-deployment",
+      "UnauthRoleName": "amplify-lollyfrontend-dev-185149-unauthRole",
+      "StackName": "amplify-lollyfrontend-dev-185149",
+      "StackId": "arn:aws:cloudformation:us-east-2:580656575244:stack/amplify-lollyfrontend-dev-185149/5206af20-5e4b-11eb-adbf-0a44d6c0bc78",
+      "AmplifyAppId": "d2h2x6jnb89ksl"
     }
   }
 }

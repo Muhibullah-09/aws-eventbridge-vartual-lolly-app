@@ -31,7 +31,7 @@ const LollyInfo: FC<Props> = ({
           — {sender}
         </p>
       </div>
-      <p className="bytheway">
+      <p className="bytheway"> 
         {sender.toUpperCase()} made this virtual lollipop for you {recipient.toUpperCase()}
       </p><br/>
       <Link to="/createLolly" onClick={() => setSubmission(false)}>
