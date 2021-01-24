@@ -7,8 +7,8 @@ exports.createPages = async ({ actions }) => {
   });
 
   const params = {
-    TableName: 'LollyTable',
-  }; 
+    TableName: 'Lolly_Table',
+  };
 
   try {
     var result = await docClient.scan(params).promise();
@@ -23,7 +23,7 @@ exports.createPages = async ({ actions }) => {
     result.Items.forEach((lolly) => {
       createPage({
         path: `/${lolly.lollyPath}`,
-        component: require.resolve(`./src/Template/Template.tsx`),
+        component: require.resolve(`./src/Template/dynamicPage.tsx`),
         context: {
           lolly
         },

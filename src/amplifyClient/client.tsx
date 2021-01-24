@@ -10,4 +10,4 @@ export default function amplifyClient({ children }: props) {
   Amplify.configure(awsmobile)
 
   return <div>{children}</div>
-} 
+}
