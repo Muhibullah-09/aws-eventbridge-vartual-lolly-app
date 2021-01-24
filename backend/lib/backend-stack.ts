@@ -61,7 +61,7 @@ export class BackendStack extends cdk.Stack {
     });
 
     // Giving Table access to dynamoHandlerLambda
-    LollyAppTable.grantReadWriteData(dynamoHandlerLambda);
+    LollyAppTable.grantFullAccess(dynamoHandlerLambda);
 
     LollyAppDS.createResolver({
       typeName: "Query",
