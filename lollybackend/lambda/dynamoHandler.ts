@@ -1,10 +1,10 @@
 import { EventBridgeEvent, Context } from 'aws-lambda';
 import * as AWS from 'aws-sdk';
-var https = require('https');
+var https = require('https'); 
 
 const options = {
     hostname: 'webhooks.amplify.us-east-2.amazonaws.com',
-    path: '/prod/webhooks?id=22cce9e4-f00c-4dc7-8bd5-80e7593cac5b&token=EskPgrhWZy2gaHPKNluidzuH9To0fDz7nwazGQyw8I',
+    path: '/prod/webhooks?id=c5881d9c-a240-447d-842b-d9dbc551be27&token=KEQ5ayk9PganbdepodgOBkK4Pv3I8NUVuWxvQ2Fo',
     method: 'POST'
 };  
 

@@ -1,15 +1,15 @@
 {
     "providers": {
         "awscloudformation": {
-            "AuthRoleName": "amplify-lollyfrontend-dev-185149-authRole",
-            "UnauthRoleArn": "arn:aws:iam::580656575244:role/amplify-lollyfrontend-dev-185149-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::580656575244:role/amplify-lollyfrontend-dev-185149-authRole",
+            "AuthRoleName": "amplify-lollyfrontend-dev-122545-authRole",
+            "UnauthRoleArn": "arn:aws:iam::580656575244:role/amplify-lollyfrontend-dev-122545-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::580656575244:role/amplify-lollyfrontend-dev-122545-authRole",
             "Region": "us-east-2",
-            "DeploymentBucketName": "amplify-lollyfrontend-dev-185149-deployment",
-            "UnauthRoleName": "amplify-lollyfrontend-dev-185149-unauthRole",
-            "StackName": "amplify-lollyfrontend-dev-185149",
-            "StackId": "arn:aws:cloudformation:us-east-2:580656575244:stack/amplify-lollyfrontend-dev-185149/5206af20-5e4b-11eb-adbf-0a44d6c0bc78",
-            "AmplifyAppId": "d2h2x6jnb89ksl"
+            "DeploymentBucketName": "amplify-lollyfrontend-dev-122545-deployment",
+            "UnauthRoleName": "amplify-lollyfrontend-dev-122545-unauthRole",
+            "StackName": "amplify-lollyfrontend-dev-122545",
+            "StackId": "arn:aws:cloudformation:us-east-2:580656575244:stack/amplify-lollyfrontend-dev-122545/8def6840-5ede-11eb-9548-0a9363ef648e",
+            "AmplifyAppId": "d17wdabx1o3oro"
         }
     },
     "api": {
@@ -22,13 +22,13 @@
                     },
                     "additionalAuthenticationProviders": null
                 },
-                "GraphQLAPIIdOutput": "6wnol5dutnghnlcu5komm6mozu",
-                "GraphQLAPIEndpointOutput": "https://zgcuvlclpffvnew672y5kpukfm.appsync-api.us-east-2.amazonaws.com/graphql",
+                "GraphQLAPIIdOutput": "k6xiohwmynchliby2r65mw4tpi",
+                "GraphQLAPIEndpointOutput": "https://fhigdfus6fcm7i4awsgt2rwaki.appsync-api.us-east-2.amazonaws.com/graphql",
                 "name": "Lolly_EventBridge_Api",
                 "region": "us-east-2",
-                "GraphQLAPIKeyOutput": "da2-ppsznj2rnrfn5o4nhjnvw7clge"
+                "GraphQLAPIKeyOutput": "da2-vkjmp5qtmfar7nqhihiykle6py"
             },
-            "lastPushTimeStamp": "2021-01-24T13:52:52.479Z"
+            "lastPushTimeStamp": "2021-01-25T07:27:07.704Z"
         }
     }
 }

@@ -1,8 +1,8 @@
 {
-  "name": "backend",
+  "name": "lollybackend",
   "version": "0.1.0",
   "bin": {
-    "backend": "bin/backend.js"
+    "lollybackend": "bin/lollybackend.js"
   },
   "scripts": {
     "build": "tsc",
